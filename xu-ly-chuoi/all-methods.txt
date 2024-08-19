@@ -1,0 +1,32 @@
+length: Phương thức length trả về độ dài của một chuỗi, tức là số ký tự trong chuỗi.
+
+charAt(index): Phương thức charAt() trả về ký tự tại một vị trí cụ thể trong chuỗi, dựa trên chỉ số (index). Chỉ số bắt đầu từ 0.
+
+toUpperCase() và toLowerCase(): Phương thức toUpperCase() chuyển đổi tất cả các ký tự trong chuỗi thành chữ hoa,
+ trong khi toLowerCase() chuyển đổi chúng thành chữ thường.
+
+substring(start, end): Phương thức substring() trích xuất một phần của chuỗi, 
+bắt đầu từ vị trí start đến vị trí end (không bao gồm vị trí end).
+
+split(separator): Phương thức split() chia chuỗi thành một mảng các chuỗi con,
+ dựa trên một ký tự phân tách (separator) được chỉ định.
+
+indexOf(substring) và lastIndexOf(substring):
+Phương thức indexOf() trả về vị trí đầu tiên xuất hiện của một chuỗi con (substring) trong chuỗi gốc,
+trong khi lastIndexOf() trả về vị trí xuất hiện cuối cùng.
+
+Phương thức string.repeat() sẽ lặp lại chuỗi string với số lần nhất định được cung cấp khi gọi phương thức.
+Phương thức sẽ trả về một chuỗi chính là n chuỗi string nối với nhau( n là số lần lặp được xác định khi gọi phương thức).
+Cú pháp: string.repeat( count)
+
+trim(): Phương thức trim() loại bỏ các ký tự khoảng trắng ở đầu và cuối chuỗi.
+
+concat(string1, string2, ..., stringN): Phương thức concat() nối hai hoặc nhiều chuỗi với nhau và trả về một chuỗi mới.
+
+replace(substring, newSubstring): Phương thức replace() thay thế một chuỗi con cụ thể bằng chuỗi con mới trong một chuỗi.
+
+
+startsWith(substring) và endsWith(substring): Phương thức startsWith() kiểm tra xem một chuỗi có bắt đầu bằng chuỗi con cụ thể hay không, trong khi endsWith() kiểm tra xem một chuỗi có kết thúc bằng chuỗi con cụ thể hay không.
+
+
+slice(start, end): Phương thức slice() trích xuất một phần của chuỗi và trả về một chuỗi mới, dựa trên chỉ số bắt đầu và kết thúc. Có thể sử dụng chỉ số âm để đếm từ cuối chuỗi.
